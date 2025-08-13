@@ -9,6 +9,7 @@ import { join } from 'path';
 import config from './app.lang.config';
 import isProduction from '../utils/isProduction';
 import translationEN from '../locales/en/translation.json';
+import translationBR from '../locales/br/translation.json';
 import translationES from '../locales/es/translation.json';
 import translationKO from '../locales/ko/translation.json';
 import translationUA from '../locales/ua/translation.json';
@@ -61,6 +62,7 @@ export const getShuffledArrayOfHello = (): string[] => {
   const res: string[] = [];
 
   res.push(translationES.Hello);
+  res.push(translationBR.Hello);
   res.push(translationUA.Hello);
   res.push(translationKO.Hello);
   res.push(translationRU.Hello);

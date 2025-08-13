@@ -28,6 +28,7 @@ describe('i18next.config.client tests', () => {
       // TODO: add more languages here manually when adding new languages in app!
       const expectedMap = new Map();
       expectedMap.set('English', 'en');
+      expectedMap.set('português', 'br');
       expectedMap.set('Español', 'es');
       expectedMap.set('한국어', 'ko');
       expectedMap.set('Русский', 'ru');
@@ -49,6 +50,7 @@ describe('i18next.config.client tests', () => {
     it('should return proper key map', () => {
       // TODO: add more languages here manually when adding new languages in app!
       const expectedMap = new Map();
+      expectedMap.set('português', 'br');
       expectedMap.set('en', 'English');
       expectedMap.set('es', 'Español');
       expectedMap.set('한국어', 'ko');

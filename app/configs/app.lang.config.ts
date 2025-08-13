@@ -19,6 +19,7 @@ export default {
     'nl',
     'fr',
     'sv',
+    'br',
   ],
   langISOKeyToLangFullNameMap: {
     en: 'English',
@@ -36,5 +37,6 @@ export default {
     zh_CN: '简体中文',
     zh_TW: '繁體中文',
     ja: '日本語',
+    br: 'português',
   },
 };

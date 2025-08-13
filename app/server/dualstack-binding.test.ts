@@ -178,4 +178,3 @@ describe('HTTP Server Dual-Stack Binding', () => {
     }).toThrow('Some other error');
   });
 });
-
